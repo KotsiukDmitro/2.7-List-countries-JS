@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b910e3d46e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>List page of countries</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h3 class="text">Where in the world?</h3>
+            <button class="btn theme-switch dark-theme" data-theme="light"><i
+                    class="fa-solid fa-circle-half-stroke"></i>Dark</button>
+            <button class="btn  theme-switch light-theme" data-theme="dark"><i
+                    class="fa-solid fa-circle-half-stroke"></i>Light</button>
+        </div>
+        <div class="form">
+            <div class="form-search">
+                <div class="form-input">
+                    <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                    <input id="search" class="search" type="text" placeholder="Search of a country...">
+                    <img id="loader" src="icon/Spinner-1s-200px.svg" alt="">
+                </div>
+                <select class="filter" name="region" id="region">
+                    <option value="" selected>All regions</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+            <div class="cards" id="card"></div>
+        </div>
+    </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

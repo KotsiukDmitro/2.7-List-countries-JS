@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: rgb(219, 212, 212);
+}
+
+.form {
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  outline: none;
+  height: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn:hover {
+  color: rgb(219, 212, 212);
+  font-size: 16px;
+  transition: 1000;
+}
+
+.text {
+  height: 30px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  line-height: 0;
+}
+
+.search {
+  border-radius: 2px;
+  border: none;
+  margin-left: 20px;
+  outline: none;
+  box-shadow: 2px 2px 5px 0px #94b1d2;
+  padding-left: 30px;
+  height: 30px;
+}
+
+.filter {
+  border-radius: 2px;
+  border: none;
+  width: 150px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px 5px 0px #94b1d2;
+}
+
+.form-search {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.country {
+  height: 180px;
+  max-width: 130px;
+  min-width: 130px;
+  background-color: white;
+  margin: 30px 20px 0 20px;
+  box-shadow: 2px 2px 5px 0px #94b1d2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.country-info {
+  font-size: 8px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.name {
+  padding-left: 10px;
+}
+
+.country-name {
+  font-size: 11px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.flag {
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+.icon-search {
+  left: 30px;
+  top: 7px;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.form-input {
+  position: relative;
+}
+
+.dark-theme {
+  display: none;
+}
+
+.dark .container {
+  background-color: rgb(15, 14, 14);
+}
+.dark .light-theme {
+  display: none;
+}
+.dark .dark-theme {
+  display: block;
+  display: flex;
+}
+
+.font {
+  color: rgb(81, 78, 78);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#loader {
+  width: 20px;
+  margin-left: -25px;
+  margin-bottom: -5px;
+  display: none;
+}
+
+#loader.show-loader {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */
